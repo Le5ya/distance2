@@ -131,13 +131,14 @@ body {
   max-width: 1200px;
   margin: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .sidebar{
+  width: 600px;
   margin-top: 50px;
 }
 .menu-sidebar {
-  max-width: 192px;
+  width: 192px;
   margin-left: 0px;
   margin-right: 12px;
 }
@@ -424,7 +425,6 @@ color: #595959;
   width: 390px;
 
 }
-
 .stories {
     background:  #ffffff;
     box-shadow:0px 2px 8px rgba(0, 0, 0, 0.15);
@@ -436,7 +436,6 @@ color: #595959;
     padding-right: 16px;
     
 }
-
 .stories-header {
     display: flex;
     justify-content: space-between;
@@ -450,7 +449,7 @@ color: #595959;
     font-size: 14px;
     line-height: 22px;
 }
-.stories-buttons {
+.stories-button {
     display: flex;
     justify-content: center;
 }
@@ -474,10 +473,9 @@ story-button-link {
 }
 
 .stories-icon {
-    vertical-align: sub;
-    
+  vertical-align: sub;
+   
 }
-
 .story-item, 
 .story-item-add{
    display: flex;
@@ -485,7 +483,6 @@ story-button-link {
    text-decoration: none;
    margin-bottom: 16px;       
 }
-
 .story-image {
    width: 48px;
    height: 48px;
@@ -518,7 +515,6 @@ story-button-link {
     width:100%;
     color: #0050B3;
     display: block;
-    display: block;
     margin-top: 18px;
 
 
@@ -532,6 +528,12 @@ story-button-link {
     color: #8C8C8C;
     width: 100%;
     word-wrap: break-word;
+}
+.figma{
+  background-image: url(../img/figma-avatar.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .dropdown{
     display: flex;
